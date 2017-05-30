@@ -11,7 +11,7 @@ IFS=$'\t\n'
 set -e
 
 REPO="vps-secure-config-deploy-debian"
-MASTER="https://github.com/CynicalSystems/$REPO.git"
+MASTER="https://github.com/CynicalSystems/$REPO"
 
 if [ ! -d "${REPO}" ] && [ "$(pwd)" != "${REPO}" ]; then
   	if hash git 2>/dev/null; then 
